@@ -14,7 +14,7 @@ def run():
    #Corregir los minutos para que estén en un rango de 60
    minutos = minutos % 60
 
-   #Corregir las horas para que estén en un rango de 60
+   #Corregir las horas para que estén en un rango de 24
    horas= horas % 24
 
    print(horas, ":", minutos, sep="")
