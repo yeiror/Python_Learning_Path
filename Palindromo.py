@@ -9,7 +9,7 @@ def palindromo(cadena):
         print("No es palindromo")
 
 def run():
-    cadena = input("Bienvenido, ingresa una palabra o frase para ver si es palíndromo ")
+    cadena = input("Bienvenido, ingresa una palabra o frase para ver si es palíndromos ")
     palindromo(cadena)
 
 
