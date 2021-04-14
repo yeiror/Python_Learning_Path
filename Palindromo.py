@@ -1,5 +1,5 @@
 def palindromo(cadena):
-    cadena= cadena.strip()
+   
     cadena= cadena.replace(" ","")
     cadena= cadena.lower()
     inverso = cadena[::-1]
