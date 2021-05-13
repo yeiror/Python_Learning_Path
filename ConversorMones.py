@@ -11,13 +11,14 @@ Seleccione la opción de conversion
 2 - Pesos Colombianos a Dólares
 3 - Pesos Argentinos a Dólares
 """
-cantidad = int(input(menu))
+while True:
+        cantidad = input(menu)
 
-if cantidad == 1:
-        print(conversor_moneda("Mexicanos", 20.86))
-elif cantidad == 2:
-        print(conversor_moneda("Colombianos", 3647))
-elif cantidad == 3:
-        print(conversor_moneda("Argentinos", 89.85))
-else:
-        print("Ingresaste una opción incorrecta Bye")
+        if cantidad == '1':
+                print(conversor_moneda("Mexicanos", 20.86))
+        elif cantidad == '2':
+                print(conversor_moneda("Colombianos", 3647))
+        elif cantidad == '3':
+                print(conversor_moneda("Argentinos", 89.85))
+        else:
+                print("Ingresaste una opción incorrecta Bye")
